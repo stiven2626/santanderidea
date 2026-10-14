@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+  --color-noche: #071537;     /* azul casi negro */
+  --color-plano: #0b2a6b;     /* azul de plano */
+  --color-plano-2: #12389a;
+  --color-cobalto: #2563ff;   /* acción */
+  --color-cielo: #6fa8ff;
+  --color-hielo: #e8f0ff;
+  --color-niebla: #f4f7fd;    /* fondo claro */
+  --color-tinta: #0c1a3d;     /* texto */
+  --color-gris: #5a6888;
+
+  --font-display: "Bricolage Grotesque", system-ui, sans-serif;
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--color-niebla);
+  color: var(--color-tinta);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* papel de plano: cuadrícula fina + cuadrícula mayor */
+.papel-plano {
+  background-color: var(--color-plano);
+  background-image:
+    linear-gradient(rgb(232 240 255 / 0.13) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(232 240 255 / 0.13) 1px, transparent 1px),
+    linear-gradient(rgb(232 240 255 / 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(232 240 255 / 0.05) 1px, transparent 1px);
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+}
+
+.papel-claro {
+  background-image:
+    linear-gradient(rgb(11 42 107 / 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(11 42 107 / 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+::selection { background: var(--color-cobalto); color: white; }
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}
