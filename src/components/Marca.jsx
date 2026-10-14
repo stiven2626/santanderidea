@@ -1,12 +1,12 @@
-// Logo: la palabra IDEA dentro de marcas de corte, como en un plano impreso.
-export function Logo({ claro = false, className = '' }) {
-  const c = claro ? 'text-hielo' : 'text-plano'
+// Logo oficial: el punto de la "i" es el mapa de Santander.
+// claro = true → versión blanca, para fondos azules.
+export function Logo({ claro = false, className = 'h-11' }) {
   return (
-    <span className={`relative inline-flex items-baseline gap-1.5 px-2.5 py-1 ${c} ${className}`}>
-      <Esquinas />
-      <span className="font-display text-lg font-extrabold tracking-tight">IDEA</span>
-      <span className={`font-mono text-[11px] ${claro ? 'text-cielo' : 'text-cobalto'}`}>santander</span>
-    </span>
+    <img
+      src={claro ? '/marca/logo-oscuro.svg' : '/marca/logo-claro.svg'}
+      alt="IDEA Santander"
+      className={`w-auto ${className}`}
+    />
   )
 }
 

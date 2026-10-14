@@ -27,8 +27,8 @@ export default function Nav() {
         claro ? 'bg-transparent' : 'border-b border-plano/10 bg-niebla/90 backdrop-blur'
       }`}
     >
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
-        <a href="#inicio" aria-label="IDEA Santander, inicio"><Logo claro={claro} /></a>
+      <nav className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2 sm:px-6">
+        <a href="#inicio" aria-label="IDEA Santander, inicio"><Logo claro={claro} className="h-14" /></a>
 
         <ul className="hidden items-center gap-7 text-sm md:flex">
           {links.map(([href, label]) => (

@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
         <div className="flex flex-wrap items-start justify-between gap-10">
           <div>
-            <Logo claro />
+            <Logo claro className="h-20" />
             <p className="mt-4 max-w-xs text-sm leading-relaxed">
               {marca.sigla.join(', ').replace(/, ([^,]*)$/, ' y $1')}. Desde {marca.ciudad} para toda Colombia.
             </p>
