@@ -7,18 +7,18 @@ export const marca = {
   apellido: 'Santander',
   sigla: ['Ingeniería', 'Desarrollo', 'Estrategia', 'Automatización'],
   dominio: 'ideasantander.com',
-  email: 'hola@ideasantander.com', // créalo gratis en Cloudflare → Email Routing
+  email: 'stivenrozo1@gmail.com', // créalo gratis en Cloudflare → Email Routing
   whatsapp: '573103558222', // 57 + número, sin espacios ni +
   ciudad: 'Bucaramanga, Santander',
   instagram: 'https://instagram.com/', // ← tu usuario cuando lo crees
-  linkedin: 'https://www.linkedin.com/in/yeison-stiven-6972a258',
+  linkedin: 'www.linkedin.com/in/yeison-stiven-gutierrez-rozo-76972a258',
 }
 
 export const fundador = {
   nombre: 'Yeison Stiven Gutiérrez Rozo',
   cargo: 'Fundador · Director de tecnología',
   bio: 'Ingeniero de software en formación y tecnólogo del SENA. Ha construido pipelines de datos e integraciones para el sector público nacional, y software a la medida para empresas comerciales, de logística y de servicios en Santander.',
-  portafolio: 'https://', // ← link a tu portafolio personal
+  portafolio: 'https://portafolio-one-ashy-21.vercel.app/#servicios', // ← link a tu portafolio personal
 }
 
 // Categorías para filtrar servicios
