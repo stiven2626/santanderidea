@@ -3,6 +3,7 @@ import { Logo } from './Marca'
 
 const links = [
   ['#servicios', 'Servicios'],
+  ['#proyectos', 'Proyectos'],
   ['#proceso', 'Cómo trabajamos'],
   ['#nosotros', 'Nosotros'],
   ['#preguntas', 'Preguntas'],

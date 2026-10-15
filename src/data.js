@@ -100,6 +100,52 @@ export const servicios = [
   },
 ]
 
+// Proyectos: para agregar uno nuevo, copia un bloque y pon las capturas en public/<carpeta>/
+export const proyectos = [
+  {
+    titulo: 'Cáchira, paraíso natural',
+    tipo: 'Página web',
+    sector: 'Turismo y cultura',
+    lugar: 'Cáchira, Norte de Santander',
+    link: 'https://cachiraparaisonatural.vercel.app/',
+    reto: 'La historia de Cáchira vivía dispersa: en la memoria de los abuelos, en fotos sueltas y en publicaciones que se pierden en redes. No había un solo lugar para mostrarle al visitante qué conocer, ni para que el cachirense que vive lejos recordara su tierra.',
+    solucion: 'Una página que reúne territorio, veredas, sitios para visitar, historia, gente y sabores del municipio, y que la misma comunidad va construyendo con sus aportes.',
+    funciones: [
+      'Secciones de territorio, historia, gente y voces',
+      'Catálogo de cultivos y sabores de la región',
+      'Formulario para que la comunidad envíe historias',
+      'Contacto directo por WhatsApp y correo',
+      'Diseño pensado para el celular',
+    ],
+    imagenes: [
+      ['/cachira/inicio.png', 'Página de inicio con datos del municipio'],
+      ['/cachira/sabores.png', 'Sección de sabores y campo'],
+      ['/cachira/aportes.png', 'Formulario para aportar historias'],
+    ],
+  },
+  {
+    titulo: 'Nails Lee',
+    tipo: 'Página web',
+    sector: 'Belleza y cuidado',
+    lugar: 'Bucaramanga, Santander',
+    link: 'https://nailslee.vercel.app/',
+    reto: 'Un estudio de uñas que ofrece manicure, pedicure y diseño en un espacio tranquilo necesitaba mostrar su trabajo y su carta de servicios en un solo lugar, y que agendar una cita no dependiera de un ir y venir de mensajes.',
+    solucion: 'Una página con la calma y el detalle del estudio: carta de servicios, galería de diseños recientes y una reserva que arma la solicitud y la envía lista por WhatsApp.',
+    funciones: [
+      'Carta de servicios de manos y pies',
+      'Galería deslizable de trabajos recientes',
+      'Reserva con servicio, día, hora y color',
+      'Vista previa del mensaje antes de enviarlo por WhatsApp',
+      'Diseño pensado para el celular',
+    ],
+    imagenes: [
+      ['/nailslee/inicio.png', 'Página de inicio del estudio'],
+      ['/nailslee/trabajos.jpg', 'Galería de diseños hechos a mano'],
+      ['/nailslee/reserva.png', 'Formulario para agendar cita por WhatsApp'],
+    ],
+  },
+]
+
 export const proceso = [
   {
     nombre: 'Bosquejo',
