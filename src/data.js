@@ -4,6 +4,7 @@
 
 export const marca = {
   nombre: 'IDEA',
+  nombre:"prueba",
   apellido: 'Santander',
   sigla: ['Ingeniería', 'Desarrollo', 'Estrategia', 'Automatización'],
   dominio: 'ideasantander.com',
